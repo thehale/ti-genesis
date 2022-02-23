@@ -1,0 +1,91 @@
+ClrHome
+Disp "IN STANDARD FORM","ENTER A,B,C"
+Prompt A,B,C
+If fPart(A)≠0 or fPart(B)≠0 or fPart(C)≠0
+Then
+Disp " DOES NOT FACTOR"
+Stop
+End
+B²-(4AC)→D
+If D<0
+Then
+Disp " DOES NOT FACTOR"
+Stop
+End
+abs(A)→D
+abs(B)→E
+abs(C)→F
+gcd({D,E},F)→FOIL
+min(ʟFOIL(1),ʟFOIL(2))→G
+If A<0
+⁻G→G
+{A,B,C}/G→GCFED
+ʟGCFED(1)→D
+ʟGCFED(2)→E
+ʟGCFED(3)→F
+D*F→H
+If H>0
+Then
+1→L
+1→M
+Else
+⁻1→L
+⁻1→M
+End
+For(Q,L,H,M)
+H/Q→R
+If (Q+R)=E
+Goto W
+If (⁻Q+⁻R)=E
+Goto V
+If Q+1>H and H>0
+Then
+ClrHome
+Disp " DOES NOT FACTOR"
+Stop
+End
+If Q-1<H and H<0
+Then
+ClrHome
+Disp " DOES NOT FACTOR
+Stop
+End
+If iPart(Q/64)=Q/64
+Then
+ClrHome
+Output(4,2,"CALCULATING")
+Else
+If iPart(Q/32)=Q/32
+Then
+ClrHome
+Output(4,2,"CALCULATING.")
+Else
+If iPart(Q/16)=Q/16
+Then
+ClrHome
+Output(4,2,"CALCULATING..")
+Else
+If iPart(Q/8)=Q/8
+Then
+ClrHome
+Output(4,2,"CALCULATING...")
+End
+End
+End
+End
+End
+Lbl V
+⁻Q→Q
+⁻R→R
+Lbl W
+gcd(abs(D),abs(Q))→I
+gcd(abs(D),abs(R))→J
+gcd(abs(R),abs(F))→K
+gcd(abs(Q),abs(F))→N
+If R<0
+⁻K→K
+If Q<0
+⁻N→N
+ClrHome
+Disp "   A( X+P)( X+Q)"
+Pause {G,J,N,I,K}
