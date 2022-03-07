@@ -1,0 +1,3 @@
+Prompt T,A
+(T-A)/T→C
+Disp abs(100C)

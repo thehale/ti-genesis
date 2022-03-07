@@ -1,0 +1,3 @@
+Prompt A,B
+(A-B)/((A+B)/2)→C
+Disp abs(100C)
