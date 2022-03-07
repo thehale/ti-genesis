@@ -1,0 +1,33 @@
+For(A,0,1000)
+If iPart(A/128)=A/128
+Then
+ClrHome
+Output(4,4,"LOADING")
+Else
+If iPart(A/64)=A/64
+Then
+ClrHome
+Output(4,4,"LOADING.")
+Else
+If iPart(A/32)=A/32
+Then
+ClrHome
+Output(4,4,"LOADING..")
+Else
+If iPart(A/16)=A/16
+Then
+ClrHome
+Output(4,4,"LOADING...")
+Else
+If iPart(A/8)=A/8
+Then
+ClrHome
+Output(4,4,"LOADING....")
+End
+End
+End
+End
+End
+End
+ClrHome
+Output(4,6,"DONE!")
