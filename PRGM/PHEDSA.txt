@@ -1,0 +1,32 @@
+Menu("CALCULATE WHAT?","CYLINDAR?",C,"CONE?",N,"PRISM?",P,"PYRAMID?",D,"SPHERE?",E)
+
+Lbl C
+Disp "CALC CYLINDAR","ENTER HEIGHT","RADIUS"
+Prompt H,R
+2πRH+2πR²→Z
+Disp "SA OF CYL IS",Z
+Stop
+Lbl N
+Disp "CALC CONE","ENTER SLANT","RADIUS"
+Prompt L,R
+πRL+πR²→Y
+Disp "SA OF CONE IS",Y
+Stop
+Lbl P
+Disp "CALC PRISM","ENTER PERM,HEIGHT","BASE"
+Prompt P,H,B
+PH+2B→X
+Disp "SA OF PRISM IS",X
+Stop
+Lbl D
+Disp "CALC PYRAMID","ENTER PERM,SLANT","BASE"
+Prompt P,L,B
+.5PL+B→W
+Disp "SA OF PYMID IS",W
+Stop
+Lbl E
+Disp "CALC SPHERE","ENTER RADIUS"
+Prompt R
+4πR²→V
+Disp "SA OF SPHERE IS",V
+Stop

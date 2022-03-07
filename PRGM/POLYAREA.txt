@@ -1,0 +1,41 @@
+Menu("CALCULATE WHAT?","PARALLELOGRAM?",P,"RHOMBUS?",R,"KITE?",K,"TRIANGLE?",T,"TRAPEZOID?",Z,"CIRCLE?",C,"REG POLYGON?",G)
+Lbl P
+
+Disp "CALC PARLELOGRAM"
+Prompt B,H
+BH→Y
+Disp "AREA IS",Y
+Stop
+Lbl R
+Disp "CALC RHOMBUS"
+Prompt D,E
+.EDE→X
+Disp "AREA IS",X
+Stop
+Lbl K
+Disp "CALC KITE"
+Prompt D,E
+.5DE→W
+Disp "AREA IS",W
+Stop
+Lbl Z
+Disp "CALC TRAPEZOID"
+Prompt B,A,H
+B+A→V
+(1/2)U→F
+VU→S
+Disp "AREA IS",S
+Stop
+Lbl C
+Disp "CALC CIRCLE"
+Prompt R
+R²→Q
+πQ→O
+Disp "AREA IS",O
+Stop
+Lbl G
+Disp "CALC REG POLYGON","ENTER APOTHEM","PERIMETER"
+Prompt A,P
+.5AP→N
+Disp "AREA IS",N
+Stop

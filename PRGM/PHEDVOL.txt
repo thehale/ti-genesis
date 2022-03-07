@@ -1,0 +1,38 @@
+Menu("CALCULATE WHAT?","CYLINDAR?",C,"CONE?",N,"PRISM?",P,"PYRAMID?",D,"SPHERE?",S,"ELLIPSOID?",E)
+
+Lbl C
+Disp "CALC CYLINDAR","ENTER HEIGHT","RADIUS"
+Prompt H,R
+πHR²→Z
+Disp "VOL OF CYL IS",Z
+Stop
+Lbl N
+Disp "CALC CONE","ENTER HEIGHT","RADIUS"
+Prompt H,R
+(1/3)πHR²→Y
+Disp "VOL OF CONE IS",Y
+Stop
+Lbl P
+Disp "CALC PRISM","ENTER BASE,HEIGHT"
+Prompt B,H
+BH→X
+Disp "VOL OF PRISM IS",X
+Stop
+Lbl D
+Disp "CALC PYRAMID","ENTER BASE,SLANT"
+Prompt B,H
+(1/3)BH→W
+Disp "VOL OF PYMID IS",W
+Stop
+Lbl S
+Disp "CALC SPHERE","ENTER RADIUS"
+Prompt R
+(4/3)πR³→V
+Disp "VOL OF SPHERE IS",V
+Stop
+Lbl E
+Disp "CALC ELLIPSOID","ENTER A,B,C"
+Prompt A,B,C
+(4/3)πABC→U
+Disp "VOL IS",U
+Stop

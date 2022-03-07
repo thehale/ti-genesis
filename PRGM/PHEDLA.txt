@@ -1,0 +1,26 @@
+Menu("CALCULATE WHAT?","CYLINDAR?",C,"CONE?",N,"PRISM",P,"PYRAMID",D)
+
+Lbl C
+Disp "CALC CYLINDAR","ENTER DIAMETER","HEIGHT"
+Prompt D,H
+πDH→Z
+Disp "LA OF CYL IS",Z
+Stop
+Lbl N
+Disp "CALC CONE","ENTER SLANT","RADIUS"
+Prompt L,R
+πRL→Y
+Disp "LA OF CONE IS",Y
+Stop
+Lbl P
+Disp "CALC PRISM","ENTER PERM,HEIGHT"
+Prompt P,H
+PH→X
+Disp "LA OF PRISM IS",X
+Stop
+Lbl D
+Disp "CALC PYRAMID","ENTER PERM,SLANT"
+Prompt P,L
+.5PL→W
+Disp "LA OF PYMID IS",W
+Stop
