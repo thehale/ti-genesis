@@ -1,0 +1,12 @@
+1→A
+Lbl Y
+If iPart(A/5)=A/5
+Then
+randInt(1,8)→B
+randInt(1,2)→C
+ClrHome
+Output(B,C,"HAPPY BIRTHDAY!"
+End
+Lbl X
+A+1→A
+Goto Y
