@@ -1,0 +1,46 @@
+1→X
+0→J
+0→K
+0→L
+0→M
+0→N
+While X≤40
+randInt(1,6)→A
+randInt(1,6)→B
+randInt(1,6)→C
+randInt(1,6)→D
+Disp A,X
+X+1→X
+If A=1
+Then
+I+1→I
+End
+If A=2
+Then
+J+1→J
+End
+If A=3
+Then
+K+1→K
+End
+If A=4
+Then
+L+1→L
+End
+If A=5
+Then
+M+1→M
+End
+If A=6
+Then
+N+1→N
+End
+Disp "AVG ",(A+B+C+D)/4
+Pause 
+End
+Disp I
+Disp J
+Disp K
+Disp L
+Disp M
+Disp N
