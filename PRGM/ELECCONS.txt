@@ -1,0 +1,26 @@
+ClrHome
+8.8541878128ᴇ⁻12→S
+Disp S
+Output(1,1,"S")
+8.987551787ᴇ9→K
+Disp K
+Output(2,1,"K")
+1.602176634ᴇ⁻19→C
+Disp C
+Output(3,1,"C")
+9.10938356ᴇ⁻31→E
+Disp E
+Output(4,1,"E")
+1.672621898ᴇ⁻27→P
+Disp P
+Output(5,1,"P")
+1.674927471ᴇ⁻27→N
+Disp N
+Output(6,1,"N")
+4πᴇ⁻7→U
+Disp U
+Output(7,1,"U")
+2.99792458ᴇ8→L
+Disp L
+Output(7,1,"L")
+Stop
