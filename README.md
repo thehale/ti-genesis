@@ -2,6 +2,10 @@
 A collection of the TI-BASIC programs that launched a struggling
 algebra student into Software Engineering.
 
+<!-- BADGES -->
+[![](https://badgen.net/badge/icon/Sponsor/pink?icon=github&label)](https://github.com/sponsors/thehale)
+[![](https://badgen.net/badge/icon/Follow%20@jhaledev/1DA1F2?icon=twitter&label)](https://twitter.com/intent/user?screen_name=jhaledev)
+
 
 ## History
 My first lines of code were written on a TI-83 Plus calculator for my
